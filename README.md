@@ -52,5 +52,5 @@ E ::= T | E + F | E - F
 
 T ::= F | T * F | T/F
 
-F ::= <var> | <const> | (A)
+F ::= (A) | <var_or_const>
 
